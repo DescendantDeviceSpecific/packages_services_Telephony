@@ -40,6 +40,7 @@
         <!-- The launching Intent will be defined thru code as we need to pass some Extra -->
         <com.android.phone.RestrictedPreference
             android:key="button_cdma_apn_key"
+            android:icon="@drawable/ic_apn"
             android:title="@string/apn_settings"
             android:persistent="false"/>
     </PreferenceCategory>

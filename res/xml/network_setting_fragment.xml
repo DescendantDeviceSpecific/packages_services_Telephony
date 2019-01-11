@@ -22,11 +22,13 @@
 
     <com.android.phone.MobileDataPreference
         android:key="mobile_data_enable"
+        android:icon="@drawable/ic_enable_data"
         android:title="@string/mobile_data_settings_title"
         android:summary="@string/mobile_data_settings_summary"/>
 
     <com.android.phone.RestrictedSwitchPreference
         android:key="button_roaming_key"
+        android:icon="@drawable/ic_roaming"
         android:title="@string/roaming"
         android:persistent="false"
         android:summaryOn="@string/roaming_enable"
@@ -34,6 +36,7 @@
 
     <com.android.phone.DataUsagePreference
         android:key="data_usage_summary"
+        android:icon="@drawable/ic_app_data_usage"
         android:title="@string/data_usage_title" />
 
     <com.android.phone.AdvancedOptionsPreference
@@ -41,12 +44,14 @@
 
     <SwitchPreference
         android:key="enhanced_4g_lte"
+        android:icon="@drawable/ic_4g"
         android:title="@string/enhanced_4g_lte_mode_title"
         android:persistent="false"
         android:summary="@string/enhanced_4g_lte_mode_summary"/>
 
     <ListPreference
         android:key="preferred_network_mode_key"
+        android:icon="@drawable/ic_pref_network"
         android:title="@string/preferred_network_mode_title"
         android:summary="@string/preferred_network_mode_summary"
         android:entries="@array/preferred_network_mode_choices"
@@ -55,6 +60,7 @@
 
     <ListPreference
         android:key="enabled_networks_key"
+        android:icon="@drawable/ic_pref_network"
         android:title="@string/preferred_network_mode_title"
         android:summary="@string/preferred_network_mode_summary"
         android:entries="@array/enabled_networks_choices"
@@ -83,6 +89,7 @@
 
         <SwitchPreference
             android:key="video_calling_key"
+            android:icon="@drawable/ic_video_calling"
             android:title="@string/video_calling_settings_title"
             android:persistent="true"/>
 

@@ -24,6 +24,7 @@
 
         <SwitchPreference
             android:key="button_auto_select_key"
+            android:icon="@drawable/ic_auto_select"
             android:title="@string/select_automatically"
             android:persistent="false"/>
 
@@ -46,6 +47,7 @@
 
         <com.android.phone.RestrictedPreference
             android:key="button_gsm_apn_key"
+            android:icon="@drawable/ic_apn"
             android:title="@string/apn_settings"
             android:persistent="false" />
     </PreferenceCategory>
