@@ -30,6 +30,7 @@
 
         <com.android.phone.NetworkSelectListPreference
             android:key="button_network_select_key"
+            android:icon="@drawable/ic_signal"
             android:title="@string/network_select_title"
             android:persistent="false"/>
 
